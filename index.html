@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PinkFlamingo</title>
+  <meta name="Description" content="PinkFlamingo" />
+  <meta name="Keyword" content="PinkFlamingo" />
+  <meta name="author" content="PinkFlamingo" />
+  <!-- Global css  -->
+ 
+  <!-- aos animation  -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- slick slider  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+  <!-- bootstrap cdn  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+   <!-- font-awesome  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Pink-Flamingo.css">
+
+</head>
+<body>
+  <!-- top header -->
+  <header>
+  <div id="main">
+    
+          <div class="top-header">
+             <!-- menu bar  -->
+             <nav class="navbar navbar-expand-lg navbar-light navformobile">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-stream navbar-toggler-icon"></i>
+                <!-- <span class="navbar-toggler-icon"></span> -->
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown1" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Product 
+                      <img src="top_arrow.svg" alt="angle-down">
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown1">
+                      <li><a class="dropdown-item" href="productDetail.html">Dhoop Cones</a></li>
+                      <li><a class="dropdown-item" href="productDetail.html">Incense Holder</a></li>
+                      <li><a class="dropdown-item" href="productDetail.html">Yantras</a></li>
+                      <li><a class="dropdown-item" href="productDetail.html">Pooja Thali Sets</a></li>
+                      <li><a class="dropdown-item" href="productDetail.html">Shankh</a></li>
+                      <li><a class="dropdown-item" href="productDetail.html">Kalash</a></li>
+                  </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown2" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Services
+                      <img src="top_arrow.svg" alt="angle-down">
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown2">
+                      <li><a class="dropdown-item" href="#">Dhoop Cones</a></li>
+                      <li><a class="dropdown-item" href="#">Incense Holder</a></li>
+                      <li><a class="dropdown-item" href="#">Yantras</a></li>
+                      <li><a class="dropdown-item" href="#">Pooja Thali Sets</a></li>
+                      <li><a class="dropdown-item" href="#">Shankh</a></li>
+                      <li><a class="dropdown-item" href="#">Kalash</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Courses</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Videos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+
+            </nav>
+        <!-- menu bar  -->
+
+            <small>QUICK BUY! Get up to 25% off on All Stones</small>
+            <img src="top.jpg" class="toggle-button" onclick="toggleDiv()" alt="close-btn">
+          </div> 
+          <div id="myDiv" class="hidden">   
+            <div class="wrapper">
+              <div class="logo">
+                <img src="Pink.webp" alt="logo">
+                <a href="index.html">
+                  <div class="logo-heading">
+                    <span>PINK<span>FLAMINGO</span></span>
+                    <p>TAGLINE GOES HERE</p>
+                  </div>
+                </a>
+              </div>
+              <div class="search">
+                <div class="location">
+                  <img src="location.svg" alt="location">
+                  <p>Deliver to<br> 110094</p>
+                </div>
+                <div class="input-search">
+                  <input type="search" placeholder="Search for medication & Wellness products..">
+                  <img src="search.svg" alt="search">
+                </div>
+              </div>
+              <div class="add-to-cart">
+                <a href="#"><img src="cart.svg" alt="add to cart"></a>
+              </div>
+              <div class="user-info">
+                <img src="user.svg" alt="user-img">
+                <span><a href="#">SING IN</a>/<a href="#">SIGN UP</a></span>
+              </div>
+            </div>
+          </div>
+    <!-- top header -->
+    <hr>
+
+    <!-- menu bar  -->
+    <nav class="navbar navbar-expand-lg navbar-light desktop">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-stream navbar-toggler-icon"></i>
+        <!-- <span class="navbar-toggler-icon"></span> -->
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+       
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Product 
+              <img src="top_arrow.svg" alt="angle-down">
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Dhoop Cones 
+                  <img src="left-arrow.svg" alt="angle-left" style="margin:0 4rem;">
+                </a>
+                <ul class="dropdown-menu dropend" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="productDetail.html">Dhoop Cones</a></li>
+                  <li><a class="dropdown-item" href="productDetail.html">Incense Holder</a></li>
+                  <li><a class="dropdown-item" href="productDetail.html">Yantras</a></li>
+                  <li><a class="dropdown-item" href="productDetail.html">Pooja Thali Sets</a></li>
+                  <li><a class="dropdown-item" href="productDetail.html">Shankh</a></li>
+              </ul>
+              </li>
+
+              <li><a class="dropdown-item" href="productDetail.html">Incense Holder</a></li>
+              <li><a class="dropdown-item" href="productDetail.html">Yantras</a></li>
+              <li><a class="dropdown-item" href="productDetail.html">Pooja Thali Sets</a></li>
+              <li><a class="dropdown-item" href="productDetail.html">Shankh</a></li>
+          </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+              <img src="top_arrow.svg" alt="angle-down">
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="#">Dhoop Cones</a></li>
+              <li><a class="dropdown-item" href="#">Incense Holder</a></li>
+              <li><a class="dropdown-item" href="#">Yantras</a></li>
+              <li><a class="dropdown-item" href="#">Pooja Thali Sets</a></li>
+              <li><a class="dropdown-item" href="#">Shankh</a></li>
+              <li><a class="dropdown-item" href="#">Kalash</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blogs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Videos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact us</a>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+  </header>
+    <!-- menu bar  -->
+
+    <!-- carousel  -->
+    <!--=============== FONT AWESOME ===============-->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 col-3">
+                <img src="sun_hand.svg" class="d-block w-100" alt="slider-img">
+              </div>
+              <div class="col-md-8 col-9">
+                <h1>Transform Your Mind & Soul: Discover Your Spiritual Path with Our Courses</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+              <div class="col-4">
+                <img src="sun_hand.svg" class="d-block w-100" alt="slider-img">
+              </div>
+              <div class="col-8">
+                <h1>Transform Your Mind & Soul: Discover Your Spiritual Path with Our Courses</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+              <div class="col-4">
+                <img src="sun_hand.svg" class="d-block w-100" alt="slider-img">
+              </div>
+              <div class="col-8">
+                <h1>Transform Your Mind & Soul: Discover Your Spiritual Path with Our Courses</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- carousel  -->
+
+    <!-- top category -->
+    <section id="top-category">
+      <div class="top-heading">
+        <h4>Shop Our Top Categories</h4>
+      </div>
+      <div class="container p-0 justify-content-center">
+        <div class="row">
+          <div class="col-md-4 col-xl-2 " data-aos="zoom-in" data-aos-duration="100">
+            <a href="category.html">
+            <img src="ConeDhoop.webp" class="w-100" alt="ConeDhoop">
+            <div class="cat-description">
+              <h6 class="fw-bold text-dark">Cone Dhoop</h6>
+              <a href="#">Shop Now</a>
+            </div>
+          </a>
+          </div>
+          <div class="col-md-4 col-xl-2 " data-aos="zoom-in" data-aos-duration="500">
+            <a href="category.html">
+            <img src="IncenseStick.webp" class="w-100" alt="IncenseStick">
+            <div class="cat-description">
+              <h6 class="fw-bold text-dark">Incense Holders</h6>
+              <a href="#">Shop Now</a>
+            </div>
+          </a>
+          </div>
+          <div class="col-md-4 col-xl-2 " data-aos="zoom-in" data-aos-duration="1000">
+            <a href="category.html">
+            <img src="Incense.webp" class="w-100" alt="Incense">
+            <div class="cat-description">
+              <h6 class="fw-bold text-dark">Incense Sticks</h6>
+              <a href="#">Shop Now</a>
+            </div>
+          </a>
+          </div>
+          <div class="col-md-4 col-xl-2 " data-aos="zoom-in" data-aos-duration="1500">
+            <a href="category.html">
+            <img src="Shankh.webp" class="w-100" alt="Shankh">
+            <div class="cat-description">
+              <h6 class="fw-bold text-dark">Shankh</h6>
+              <a href="#">Shop Now</a>
+            </div>
+          </a>
+          </div>
+          <div class="col-md-4 col-xl-2 " data-aos="zoom-in" data-aos-duration="2000">
+            <a href="category.html">
+            <img src="Kalash.webp" class="w-100" alt="Kalash">
+            <div class="cat-description">
+              <h6 class="fw-bold text-dark">Kalash</h6>
+              <a href="#">Shop Now</a>
+            </div>
+          </a>
+          </div>
+          <div class="col-md-4 col-xl-2 " data-aos="zoom-in" data-aos-duration="2500">
+            <a href="category.html">
+            <img src="Buddha.webp" class="w-100" alt="Buddha">
+            <div class="cat-description">
+              <h6 class="fw-bold text-dark">Buddha Statue</h6>
+              <a href="#">Shop Now</a>
+            </div>
+          </a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- top category -->
+
+    <!-- pink PinkFlamingo -->
+    <section id="pink-fl" class="pink-fl">
+      <div class="top-heading" data-aos="zoom-in" data-aos-duration="1000">
+        <h4>Why PINK FLAMINGO ?</h4>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4" data-aos="zoom-in" data-aos-duration="2000">
+            <img src="pink_flamingo.svg" class="w-100" alt="pink-flamingo-img">
+          </div>
+          <div class="col-md-8 check-top" data-aos="zoom-in" data-aos-duration="2000">
+            <div class="check-para">
+              <img src="check.svg" alt="check-img">
+              <span>Spirituality can provide them with a framework for understanding the universe and their role in
+                it</span>
+            </div>
+            <div class="check-para">
+              <img src="check.svg" alt="check-img">
+              <span>Coping with stress and uncertainty</span>
+            </div>
+            <div class="check-para">
+              <img src="check.svg" alt="check-img">
+              <span>Spirituality can be a path to personal growth and self-discovery</span>
+            </div>
+            <div class="check-para">
+              <img src="check.svg" alt="check-img">
+              <span>Spirituality can provide people with a sense of community and connection with others</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- pink PinkFlamingo -->
+
+    <!-- slick slider section -->
+    <section id="slick-slider">
+      <div class="top-heading" data-aos="zoom-in" data-aos-duration="1000">
+        <h4>Our Latest Blogs</h4>
+      </div>
+      <div class="slider">
+        <div class="card" data-aos="zoom-in" data-aos-duration="1000">
+          <img src="blog1.webp" class="w-100" alt="Blog-img">
+          <div class="card-body">
+            <h5 class="card-title text-center fw-bold">The Power of Mindfulness</h5>
+            <p class="card-text">Mindfulness is the practice of being present and fully engaged in the moment. It is
+              about paying attention to our thoughts, feelings, and sensations in a non-judgmental way.</p>
+            <a href="#" class="btn btn-brown">Read More</a>
+          </div>
+          <h4 class="card-text">08-04-2023</h4>
+        </div>
+        <div class="card" data-aos="zoom-in" data-aos-duration="1000">
+          <img src="blog2.webp" class="w-100" alt="Blog-img">
+          <div class="card-body">
+            <h5 class="card-title text-center fw-bold">Connecting with the Divine</h5>
+            <p class="card-text">Connecting with the Divine refers to the process of establishing a spiritual connection
+              or relationship with a higher power, such as God, the Universe, or a higher consciousness.</p>
+            <a href="#" class="btn btn-brown">Read More</a>
+          </div>
+          <h4 class="card-text">09-04-2023</h4>
+        </div>
+        <div class="card" data-aos="zoom-in" data-aos-duration="2000">
+          <img src="blog3.webp" class="w-100" alt="Blog-img">
+          <div class="card-body">
+            <h5 class="card-title text-center fw-bold">The Beauty of Forgiveness</h5>
+            <p class="card-text">The beauty of forgiveness lies in its transformative power. It has the ability to heal
+              wounds and to restore relationships that have been damaged. Forgiveness brings a new level of
+              understanding.</p>
+            <a href="#" class="btn btn-brown">Read More</a>
+          </div>
+          <h4 class="card-text">10-08-2023</h4>
+        </div>
+        <div class="card">
+          <img src="blog1.webp" class="w-100" alt="Blog-img">
+          <div class="card-body">
+            <h5 class="card-title text-center fw-bold">The Power of Mindfulness</h5>
+            <p class="card-text">Mindfulness is the practice of being present and fully engaged in the moment. It is
+              about paying attention to our thoughts, feelings, and sensations in a non-judgmental way.</p>
+            <a href="#" class="btn btn-brown">Read More</a>
+          </div>
+          <h4 class="card-text">08-04-2023</h4>
+        </div>
+        <div class="card">
+          <img src="blog2.webp" class="w-100" alt="Blog-img">
+          <div class="card-body">
+            <h5 class="card-title text-center fw-bold">Connecting with the Divine</h5>
+            <p class="card-text">Connecting with the Divine refers to the process of establishing a spiritual connection
+              or relationship with a higher power, such as God, the Universe, or a higher consciousness.</p>
+            <a href="#" class="btn btn-brown">Read More</a>
+          </div>
+          <h4 class="card-text">23-06-2023</h4>
+        </div>
+        <div class="card">
+          <img src="" class="w-100" alt="contact">
+          <div class="card-body">
+            <h5 class="card-title text-center fw-bold">The Beauty of Forgiveness</h5>
+            <p class="card-text">The beauty of forgiveness lies in its transformative power. It has the ability to heal
+              wounds and to restore relationships that have been damaged. Forgiveness brings a new level of
+              understanding.</p>
+            <a href="#" class="btn btn-brown">Read More</a>
+          </div>
+          <h4 class="card-text">16-04-2023</h4>
+        </div>
+      </div>
+      
+    </section>
+    <!-- slick slider section -->
+
+<!-- contact section      -->
+    <section id="contact">
+      <div class="top-heading" data-aos="zoom-in" data-aos-duration="1000" >
+        <h4>Let's Connect</h4>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 mt-5" data-aos="zoom-in" data-aos-duration="2000">
+            <form>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1"><img src="user.png"
+                        alt="user-img"></span>
+                    <input type="text" class="form-control" placeholder="Name" aria-label="name"
+                      aria-describedby="basic-addon1">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1"><img src="phone.png"
+                        alt="phone-img"></span>
+                    <input type="text" class="form-control" placeholder="Phone number" aria-label="Phone number"
+                      aria-describedby="basic-addon1">
+                  </div>
+                </div>
+              </div>
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1"><img src="mail.png"
+                    alt="email-img"></span>
+                <input type="text" class="form-control" placeholder="Email address" aria-label="Email address"
+                  aria-describedby="basic-addon1">
+              </div>
+              <div class="mb-3">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"
+                  placeholder="Write your message here!"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-5">
+            <img src="contact.png" class="w-100" alt="Blog-img" data-aos="zoom-in" data-aos-duration="2000">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact section      -->
+
+    <!-- footer section -->
+    <footer>
+    <section id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="mail">
+              <i class="fa fa-envelope-o" aria-hidden="true"></i>
+               <span>Sign Up To Show Now</span>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Enter your email" aria-label="Enter your email"
+                aria-describedby="button-addon2">
+              <button class="btn custom-btn" type="button" id="button-addon2">SUBSCRIBE</button>
+            </div>
+          </div>
+        </div>
+        <hr style="background-color:white">
+        <div class="footer-inner">
+          <div class="row justify-content-between">
+            <div class="col-md-3">
+              <div class="footer_head">
+                <h4>Contact Us</h4>
+              </div>
+              <div class="footer-content">
+                <p>Demo Store</p>
+                <p>No 1258 Utawala,Nairobi,01010 Kenya</p>
+                <a href="tel:25470101010">
+                  <p> +25470101010</p>
+                </a>
+                <a href="example@gmail.com"></a>
+                <p>Email.Id : example@gmail.com</p></a>
+              </div>
+
+            </div>
+            <div class="col-md-2">
+              <div class="footer_head">
+                <h4>Information</h4>
+              </div>
+              <div class="footer-content">
+                <p> Privacy Policy</p>
+                <p> Refund Policy</p>
+                <p> Shopping Policy</p>
+                <p> Terms & Conditions</p>
+                <p> Blogs</p>
+              </div>
+
+            </div>
+            <div class="col-md-2">
+              <div class="footer_head">
+                <h4>Account</h4>
+              </div>
+              <div class="footer-content">
+                <p> Search</p>
+                <p> About Us</p>
+                <p> Faq</p>
+                <p> Contact</p>
+                <p> Help</p>
+              </div>
+
+            </div>
+            <div class="col-md-2">
+              <div class="footer_head">
+                <h4>Quicks Links</h4>
+              </div>
+              <div class="footer-content">
+                <p> Incense Sticks</p>
+                <p>Shankh</p>
+                <p>Kalash</p>
+                <p>Incense Holder</p>
+                <p>Cone Dhoop</p>
+
+              </div>
+
+            </div>
+            <div class="col-md-3">
+              <div class="footer_head">
+                <h4>Soical Media</h4>
+              </div>
+              <div class="footer-content">
+                <p>Follow us on social media and stay updated</p>
+                <div class="social-icon">
+                  <ul>
+                    <li><i class="fa fa-twitter"></i></li>
+                    <li><i class="fa fa-facebook-official"></i></li>
+                    <li><i class="fa fa-instagram"></i></li>
+                    <li><i class="fa fa-youtube-play"></i></li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </footer>
+    <!-- footer section -->
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script src="Pink-Flamingo.js"></script>
+</body>
+
+</html>
+
+
+
